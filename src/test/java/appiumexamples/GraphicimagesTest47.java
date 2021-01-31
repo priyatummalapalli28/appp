@@ -63,7 +63,7 @@ public class GraphicimagesTest47
 		}
 		//close app
 		driver.closeApp();
-		//stop appium server
+		//stop   appium server
 		Runtime.getRuntime().exec("taskkill /F /IM node.exe");
 		Runtime.getRuntime().exec("taskkill /F /IM cmd.exe");
 	}
